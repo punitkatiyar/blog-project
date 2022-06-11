@@ -1,0 +1,29 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+.fl{ float: left;}
+.fr{ float: right;}
+.clr{ clear: both;}
+header,nav,section{ display: block;}
+
+header{ width: 100%; background-color: teal; padding: 1% 5%;}
+.logo{ width: 25%;}
+.logo a{ text-decoration: none; color: white; font-size: 2rem;}
+nav{ width: 75%;}
+nav ul{ text-align: right; padding-top:10px ;}
+nav ul li{ display: inline;}
+nav ul li a{text-decoration: none;color: white;font-size: 1.2rem;}
+.banner{
+    height: 60vh;
+    width: 100%;
+    /* background-color: gold; */
+    background-image: url(image/bg.jpg);
+    background-size:100% 60vh;
+}
+.banner h1{ text-align: center; color: white; text-shadow: 2px 2px 2px black; font-size: 4rem; padding-top: 10vh;}
+.banner ul{ text-align: center; padding-top: 10vh;}
+.banner ul li{ display: inline;}
+.banner ul li a{ text-decoration: none; color: white; background-color: rgba(0, 126, 126,0.50); padding: 1.5% 1.8%; font-size: 1.8rem; border-radius: 50%; border: 5px solid tomato; text-shadow: 2px 2px 2px black;}
+
+.main{ width: 90%; margin: auto; min-height: 700px; border: 1px solid rgba(0, 0, 0,0.50); margin-top: 10px;}
+
+footer{ background-color: teal; margin-top: 10px;}
+footer h4{ padding: 1%; color: white; text-align: center;}
